@@ -1,0 +1,30 @@
+.footer-container {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(224, 224, 224, 0.849);
+}
+
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-writeup{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-product .nav-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-product li {
+    margin: 0.5rem 0;
+}

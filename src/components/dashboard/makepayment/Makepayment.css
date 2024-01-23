@@ -1,0 +1,91 @@
+.makepayment-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.makepayment-logo {
+    margin-bottom: 2rem;
+}
+
+
+.makepayment-content {
+    background: rgba(1, 255, 1, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+    padding: 0 3rem;
+    border-radius: 15px;
+    height: 70px;
+}
+
+.makepayment-content > p {
+    color: var(--dark-lettering, #000);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153%; /* 55.08px */
+}
+
+.makepayment-name {
+    text-align: center;
+}
+
+.makepayment-name > h4{
+    color: var(--dark-lettering, #000);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153%;
+}
+
+.makepayment-name > a {
+    color: #878787;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.makepayment-button {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.makepayment-button > button {
+    color: #ffffff;
+    background-color: var(--primary-brown);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 20px;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.makepayment-button > button > p {
+    color: var(--bg, #FFF);
+    text-align: center;
+    text-shadow: 0px 0.1px 0.1px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153%;
+}

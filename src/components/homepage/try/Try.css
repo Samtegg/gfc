@@ -1,0 +1,45 @@
+.try-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.try-heading {
+    margin: 1rem;
+}
+
+.try-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.try-subheading {
+    margin-left: 1rem;
+}
+
+.try-black {
+    font-size: 45px;
+    font-style: Roboto;
+    font-weight: 800;
+}
+
+.try-brown {
+    font-size: 30px;
+    font-style: Roboto;
+    font-weight: 800;
+    color: var(--primary-brown);
+}
+
+
+.try-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 171;
+    height: 40px;
+    color: #ffffff;
+}
+
+.try-button .signup {
+    color: #ffffff;
+
+}
+
